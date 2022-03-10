@@ -51,7 +51,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction/what-is-reiko',
             position: 'left',
             label: 'Documentation',
           },
