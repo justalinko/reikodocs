@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: 'Reiko',
         logo: {
           alt: 'Reiko Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -71,23 +71,23 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '#',
+                to: '/docs/introduction/what-is-reiko',
               },
               {
                 label : 'Getting Started',
-                to :'#'
+                to :'/docs/get-started/server-requirements'
               },
               {
                 label : 'The Basics',
-                to: '#'
+                to: '/docs/the-basics/configuration-environment'
               },
               {
                 label: 'Libraries',
-                to: '#'
+                to: '/docs/libraries/response'
               },
               {
                 label : 'Helpers',
-                to :'#'
+                to :'/docs/helpers/array'
               }
             ],
           },
