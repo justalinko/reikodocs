@@ -55,6 +55,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
+          {to : 'https://github.com/justalinko/reikoframework/releases', 'label' : 'Download',position:'left'},
           {to: '/blog', label: 'Articles', position: 'left'},
           {
             href: 'https://github.com/justalinko/reikoframework',
